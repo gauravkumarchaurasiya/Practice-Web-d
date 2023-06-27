@@ -1,10 +1,124 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+      <nav class="navbar">
+        <div class="navbar-logo">Logo</div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/resume.html">Resume</a></li>
+          <li><a href="pages/blogs.html">Blogs</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
 
+          <div class="theme-toggle">
+            <img src="images/moon.png" alt="Dark Mode" class="moon-icon" />
+            <img src="images/sun.png" alt="Light Mode" class="sun-icon" />
+          </div>
+        </ul>
+      </nav>
+    </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="home">
+        <img src="images/passport.jpg" class="person-image" />
+        <div class="person-description">
+          <h1>Welcome to My Portfolio</h1>
+          <p>
+            Hi, I'm Gaurav. I'm a web developer passionate about creating
+            beautiful and functional websites.
+          </p>
+        </div></div>
+      </section>
+      <section class = "tl">
+        <h1>TimeLine</h1>
+        <div class="container">
+        <div class="card">
+          <div class="ds-top"></div>
+          <div class="avatar-holder">
+            <img src="images/college.jpg" alt="University School of Automation and Robotics">
+          </div>
+          <div class="name">
+            <a href="#">Artificial Intelligence and Data Science</a>
+          </div>
+          <div class="ds-skill">
+            <h6>Overall CGPA <i class="fa fa-code" aria-hidden="true"></i></h6>
+            <div class="skill html">
+              <h6><i class="fab fa-html5"></i> CGPA</h6>
+              <div class="bar bar-html">
+                <p>8.41</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <!-- Second Card Content -->
+          <div class="ds-top"></div>
+          <div class="avatar-holder">
+            <img src="images/school.png" alt="Kendriya Vidhalaya AFS Bawana">
+          </div>
+          <div class="name">
+            <a href="#">Senior Secondary School</a>
+          </div>
+          <div class="ds-skill">
+            <h6>Percentage <i class="fa fa-code" aria-hidden="true"></i></h6>
+            <div class="skill html">
+              <h6><i class="fab fa-html5"></i>%</h6>
+              <div class="bar bar-html">
+                <p>96.4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <!-- Third Card Content -->
+          <div class="ds-top"></div>
+          <div class="avatar-holder">
+            <img src="images/wlps.jpg" alt="White Leaf Public School">
+          </div>
+          <div class="name">
+            <a href="#">Secondary School</a>
+          </div>
+          <div class="ds-skill">
+            <h6>Percentage <i class="fa fa-code" aria-hidden="true"></i></h6>
+            <div class="skill html">
+              <h6><i class="fab fa-html5"></i> %</h6>
+              <div class="bar bar-html">
+                <p>90.4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        </div>
+      </section>
+
+      <section class="aboutme">
+        <div class="about-me-card">
+          <div class="about-me-photo">
+            <img src="images/passport.jpg" alt="My Photo" class="about-me-image">
+          </div>
+          <div class="about-me-content">
+            <h2 class="about-me-title">About Me</h2>
+            <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ex ligula. Sed hendrerit placerat est, sed scelerisque enim. Integer luctus nunc eu leo consequat, nec consectetur lacus accumsan.</p>
+          </div>
+        </div>
+        
+      </section>
     </main>
-</body>
+
+    <script src="Javascript/index.js"></script>
+  </body>
 </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Posts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .blog-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+    .blog-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .blog-content {
+      font-size: 16px;
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="blogPosts"></div>
+
+  <script>
+    // Function to fetch and display blog posts
+    function fetchBlogPosts() {
+      var apiUrl = "https://www.googleapis.com/blogger/v3/blogs/7998938079177568848/posts?key=AIzaSyDGvSELrJY7S_bpKwDxyGXXX3rDPAejBWs";
+
+      fetch(apiUrl)
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          var blogPostsContainer = document.getElementById("blogPosts");
+
+          data.items.forEach(function(post) {
+            var blogCard = document.createElement("div");
+            blogCard.className = "blog-card";
+
+            var blogTitle = document.createElement("h2");
+            blogTitle.className = "blog-title";
+            blogTitle.textContent = post.title;
+
+            var blogContent = document.createElement("div");
+            blogContent.className = "blog-content";
+            blogContent.innerHTML = post.content;
+
+            blogCard.appendChild(blogTitle);
+            blogCard.appendChild(blogContent);
+            blogPostsContainer.appendChild(blogCard);
+          });
+        })
+        .catch(function(error) {
+          console.log("Error fetching blog posts:", error);
+        });
+    }
+
+    fetchBlogPosts();
+  </script>
+</body>
+</html>
