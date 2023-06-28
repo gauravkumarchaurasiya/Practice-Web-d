@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
   </head>
   <body>
     <header>
@@ -17,8 +19,7 @@
           <li><a href="pages/projects.html">Projects</a></li>
           <li><a href="pages/resume.html">Resume</a></li>
           <li><a href="pages/blogs.html">Blogs</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-
+          
           <div class="theme-toggle">
             <img src="images/moon.png" alt="Dark Mode" class="moon-icon" />
             <img src="images/sun.png" alt="Light Mode" class="sun-icon" />
@@ -31,7 +32,7 @@
     <main>
       <section>
         <div class="home">
-        <img src="images/passport.jpg" class="person-image" />
+        <img src="images/gaurav.jpg" class="person-image" />
         <div class="person-description">
           <h1>Welcome to My Portfolio</h1>
           <p>
@@ -107,16 +108,34 @@
 
       <section class="aboutme">
         <div class="about-me-card">
-          <div class="about-me-photo">
-            <img src="images/passport.jpg" alt="My Photo" class="about-me-image">
+          <!-- <div class="card"> -->
+            <div class="card__content">
+              <h2 class="card__title">Gaurav Kumar Chaurasiya</h2>
+              <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</p>
+              <a href="#" class="card__button">Read More</a>
+              <div class="card__social-media">
+                <a href="#" class="card__social-media-icon" data-username="gauravkumarchaurasiya"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="card__social-media-icon" data-username="username2"><i class="fab fa-github"></i></a>
+                <a href="#" class="card__social-media-icon" data-username="username3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="card__social-media-icon" data-username="username3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="card__social-media-icon" data-username="username3"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="card__social-media-icon" data-username="username3"><i class="fab fa-kaggle"></i></a>
+              </div>
+            </div>
+            <div class="card__img">
+              <img src="images/passport.jpg" alt="Gaurav Kumar Chaurasiya">
+            </div>
           </div>
-          <div class="about-me-content">
-            <h2 class="about-me-title">About Me</h2>
-            <p class="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae ex ligula. Sed hendrerit placerat est, sed scelerisque enim. Integer luctus nunc eu leo consequat, nec consectetur lacus accumsan.</p>
-          </div>
-        </div>
+        <!-- </div> -->
         
       </section>
+
+      <div class="navigation-section">
+
+        <a href="pages/projects.html" class="navigation-button"><span class="navigation-button-icon"><i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+    
+      </div>
+
     </main>
 
     <script src="Javascript/index.js"></script>

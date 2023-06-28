@@ -26,7 +26,7 @@ const handleScroll = () => {
       setTimeout(() => {
         card.classList.add('animate');
       }, delay);
-      delay += 1000; // Adjust the delay time between each card (in milliseconds)
+      delay += 700; // Adjust the delay time between each card (in milliseconds)
     } else {
       card.classList.remove('animate');
     }
@@ -43,19 +43,19 @@ handleScroll();
   
 
 
-const themeToggle = document.querySelector('#theme-toggle');
-const moonIcon = document.querySelector('.moon-icon');
-const sunIcon = document.querySelector('.sun-icon');
-const body = document.querySelector('body');
-console.log(themeToggle);
-themeToggle.addEventListener('click', toggleTheme);
+// const themeToggle = document.querySelector('.theme-toggle');
+// const moonIcon = document.querySelector('.moon-icon');
+// const sunIcon = document.querySelector('.sun-icon');
+// const body = document.querySelector('body');
+// console.log(themeToggle);
+// themeToggle.addEventListener('click', toggleTheme);
 
-function toggleTheme() {
-    console.log("clicked");
-  body.classList.toggle('dark-theme');
-  moonIcon.classList.toggle('hidden');
-  sunIcon.classList.toggle('hidden');
-}
+// function toggleTheme() {
+//     console.log("clicked");
+//   body.classList.toggle('dark-theme');
+//   moonIcon.classList.toggle('hidden');
+//   sunIcon.classList.toggle('hidden');
+// }
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -77,26 +77,26 @@ document.addEventListener('DOMContentLoaded', function() {
       });});
 
 
-      const target = {
-        clicked: 0,
-        currentFollowers: 90,
-        btn: document.querySelector("a.btn"),
-        fw: document.querySelector("span.followers")
-      };
+//       const target = {
+//         clicked: 0,
+//         currentFollowers: 90,
+//         btn: document.querySelector("a.btn"),
+//         fw: document.querySelector("span.followers")
+//       };
       
-      const follow = () => {
-        target.clicked += 1;
-        target.btn.innerHTML = 'Following <i class="fas fa-user-times"></i>';
+//       const follow = () => {
+//         target.clicked += 1;
+//         target.btn.innerHTML = 'Following <i class="fas fa-user-times"></i>';
       
-        if (target.clicked % 2 === 0) {
-          target.currentFollowers -= 1;
-          target.btn.innerHTML = 'Follow <i class="fas fa-user-plus"></i>';
-        }
-        else {
-          target.currentFollowers += 1;
-        }
+//         if (target.clicked % 2 === 0) {
+//           target.currentFollowers -= 1;
+//           target.btn.innerHTML = 'Follow <i class="fas fa-user-plus"></i>';
+//         }
+//         else {
+//           target.currentFollowers += 1;
+//         }
       
-        target.fw.textContent = target.currentFollowers;
-        target.btn.classList.toggle("following");
-      }
+//         target.fw.textContent = target.currentFollowers;
+//         target.btn.classList.toggle("following");
+//       }
       
