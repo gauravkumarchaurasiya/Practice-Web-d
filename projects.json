@@ -1,1 +1,33 @@
-
+[
+    {
+        "title": "Formify:OCR Form Reader and Validator",
+        "date": "April 2023",
+        "techUsed": "PHP | Optical Character Recognition (OCR) | API Integration",
+        "description": "Formify leverages the power of Optical Character Recognition (OCR) technology to automate data extraction from paper-based forms and match details from the form using OCR and external API integration.",
+        "imageUrl": "images/formify.png",
+        "tags": [
+            "\"PHP\"",
+            " \"OCR\"",
+            " \"API\"",
+            " \"Data Extraction\"",
+            " \"Automation\"",
+            "\"Team Project\""
+        ],
+        "link": "https://github.com/gauravkumarchaurasiya/formify",
+        "category": "Computer Vision"
+    },
+    {
+        "title": "Portfolio Website",
+        "date": "September 2023",
+        "techUsed": "Python | MySql",
+        "description": "A CUI based Store management system with Mysql database connectivty provides authentication, having multiple roles(admin,manager) , saves customer details, having feature of note making and play quiz for fun.\n",
+        "imageUrl": "images/storemanagementsystem.jpg",
+        "tags": [
+            "Python",
+            "Store Management",
+            "Indvidula proejct"
+        ],
+        "link": "https://youtu.be/NBtVuVMTess?si=0or0oQr4um7TKCJs",
+        "category": "Web Development"
+    }
+]
