@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Formify:OCR Form Reader and Validator",
+        "date": "April 2023",
+        "techUsed": "PHP | Optical Character Recognition (OCR) | API Integration",
+        "description": "Formify leverages the power of Optical Character Recognition (OCR) technology to automate data extraction from paper-based forms and match details from the form using OCR and external API integration.",
+        "imageUrl": "images/formify.png",
+        "tags": [
+            "\"PHP\"",
+            " \"OCR\"",
+            " \"API\"",
+            " \"Data Extraction\"",
+            " \"Automation\"",
+            "\"Team Project\""
+        ],
+        "link": "https://github.com/gauravkumarchaurasiya/formify",
+        "category": "Computer Vision"
+    }
+]
