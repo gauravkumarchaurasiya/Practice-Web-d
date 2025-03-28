@@ -69,5 +69,18 @@
         ],
         "link": "",
         "category": ""
+    },
+    {
+        "title": "gpt tokenizer",
+        "date": "march 2025",
+        "techUsed": "llm",
+        "description": "hello",
+        "imageUrl": "http://127.0.0.1:8000/images/banner 6.jpg",
+        "tags": [
+            "llm",
+            "ai"
+        ],
+        "link": "https://www.google.com",
+        "category": "llm"
     }
 ]
