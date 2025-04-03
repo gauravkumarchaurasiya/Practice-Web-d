@@ -142,5 +142,21 @@
         ],
         "link": "https://sites.google.com/view/sentiment-analysis-using-ml/home",
         "category": "Machine Learning"
+    },
+    {
+        "title": "BPE Tokenizer (Byte Pair Encoding)",
+        "date": "March 2025",
+        "techUsed": "Python | Streamlit | Byte Pair Encoding",
+        "description": "A Streamlit-powered BPE Tokenizer trained on Wikipedia articles. Encode and decode text efficiently using Byte Pair Encoding (BPE).",
+        "imageUrl": "images/bpe_tokenizer.png",
+        "tags": [
+            "Byte Pair Encoding",
+            "NLP",
+            "Tokenizer",
+            "python",
+            "streamlit"
+        ],
+        "link": "https://bpe-tokenizer.streamlit.app",
+        "category": "Natural Language Processing"
     }
 ]
